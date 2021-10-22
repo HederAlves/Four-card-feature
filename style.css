@@ -1,0 +1,108 @@
+body {
+	font-family: sans-serif;
+	color: #9C9C9C;
+	margin: 50px 150px 50px 150px;
+
+}
+
+.fundoCabecalho {
+	background: #F5F5F5;
+	height: 200px;
+}
+
+h1 {
+	padding: 50px 0 0 0;
+	
+	font-size: 29px;
+}
+
+h2 {
+	color: black;
+	font-size: 29px;
+	font-weight: bolder;
+	margin: 10px auto;
+}
+
+h3 {
+
+	line-height: 22px;
+}
+
+h4 {
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: bolder;
+	color: black;
+}
+
+section {
+	padding: 60px;
+	background: #F5F5F5;
+
+}
+
+.supervisor {
+	border-top: solid;
+	border-radius: 5px 5px 0 0;
+	border-width: 10px;
+	border-color: #00FFFF;
+	background: white;
+	width: 320px;
+	height: 220px;
+	padding: 10px;
+
+	box-shadow: 0 10px 20px #D3D3E3;
+}
+
+.teamBuilder {
+	border-top: solid;
+	border-radius: 5px 5px 0 0;
+	border-width: 10px;
+	border-color: red;
+	background: white;
+	width: 320px;
+	height: 220px;
+	padding: 10px;
+	margin-bottom: 28px;
+	box-shadow: 0 10px 20px #D3D3E3;
+}
+
+.karma {
+	border-top: solid;
+	border-radius: 5px 5px 0 0;
+	border-width: 10px;
+	border-color: #FFD700;
+	background: white;
+	width: 320px;
+	height: 220px;
+	padding: 10px;
+	box-shadow: 0 10px 20px #D3D3E3;
+}
+
+.calculator {
+	border-top: solid;
+	border-radius: 5px;
+	border-width: 10px;
+	border-color: #4169E1;
+	background: white;
+	width: 320px;
+	height: 220px;
+	padding: 10px;
+
+	box-shadow: 0 10px 20px #D3D3E3;
+}
+
+.imagemCards {
+	width: 20%;
+	margin-left: 250px;
+}
+
+p {
+	margin-bottom: 50px;
+	line-height: 25px;	
+}
+
+.rodape {
+	height: 100px;
+	background: #F5F5F5;
+}
