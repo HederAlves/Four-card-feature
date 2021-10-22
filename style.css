@@ -1,8 +1,11 @@
 body {
+	margin: 0 auto;
+}
+
+.conteudoGeral {
 	font-family: sans-serif;
 	color: #9C9C9C;
-	margin: 50px 150px 50px 150px;
-
+	margin: 20px 150px 0px 150px;
 }
 
 .fundoCabecalho {
@@ -12,7 +15,6 @@ body {
 
 h1 {
 	padding: 50px 0 0 0;
-	
 	font-size: 29px;
 }
 
@@ -29,7 +31,7 @@ h3 {
 }
 
 h4 {
-	margin-top: 10px;
+	margin: 10px 0px 0px 15px;
 	font-size: 20px;
 	font-weight: bolder;
 	color: black;
@@ -38,7 +40,6 @@ h4 {
 section {
 	padding: 60px;
 	background: #F5F5F5;
-
 }
 
 .supervisor {
@@ -47,11 +48,10 @@ section {
 	border-width: 10px;
 	border-color: #00FFFF;
 	background: white;
-	width: 320px;
+	width: 330px;
 	height: 220px;
-	padding: 10px;
-
 	box-shadow: 0 10px 20px #D3D3E3;
+	padding: 15px;
 }
 
 .teamBuilder {
@@ -60,11 +60,11 @@ section {
 	border-width: 10px;
 	border-color: red;
 	background: white;
-	width: 320px;
+	width: 330px;
 	height: 220px;
-	padding: 10px;
-	margin-bottom: 28px;
 	box-shadow: 0 10px 20px #D3D3E3;
+	padding: 15px;
+	margin-bottom: 50px;
 }
 
 .karma {
@@ -73,10 +73,10 @@ section {
 	border-width: 10px;
 	border-color: #FFD700;
 	background: white;
-	width: 320px;
+	width: 330px;
 	height: 220px;
-	padding: 10px;
 	box-shadow: 0 10px 20px #D3D3E3;
+	padding: 15px;
 }
 
 .calculator {
@@ -85,12 +85,17 @@ section {
 	border-width: 10px;
 	border-color: #4169E1;
 	background: white;
-	width: 320px;
+	width: 330px;
 	height: 220px;
-	padding: 10px;
-
+	padding: 15px;
 	box-shadow: 0 10px 20px #D3D3E3;
 }
+
+.cardsParagrafo {
+	width: 75%;
+	margin: 0px 0px 50px 15px;
+}
+
 
 .imagemCards {
 	width: 20%;
@@ -105,4 +110,42 @@ p {
 .rodape {
 	height: 100px;
 	background: #F5F5F5;
+}
+
+       /*MOBILE*/
+@media(max-width: 768px) {
+
+	h3 {
+		width: 85%;
+	}
+
+	.conteudoGeral {
+		margin: initial;
+	}
+
+	.supervisor {
+		margin: 25px 0px;
+		width: 130%;
+	}
+
+	.teamBuilder {
+		margin: 25px 10px;
+	}
+
+	.karma {
+		margin: 25px 10px;
+	}
+
+	.calculator {
+		margin: 25px 0px;
+	}
+
+	.frontMentor {
+
+	}
+
+	.heder {
+
+	}
+
 }
