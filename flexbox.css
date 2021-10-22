@@ -15,6 +15,7 @@ header {
 	text-align: center;
 	align-items: center;
 }
+
 .containerTitulo {
 	display: flex;
 	flex-direction: column;
@@ -58,13 +59,26 @@ section {
 	justify-content: space-around;
 }
 
-
-
-
-
-
 .rodape {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+}
+
+      /*MOBILE*/
+@media(max-width: 768px) {
+
+	.containerCabecalho {
+		margin: initial;
+	}
+
+	.rodape {
+		flex-direction: column;
+	}
+
+	section {
+		height: initial;
+		flex-direction: column;
+	}
+
 }
