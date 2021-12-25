@@ -1,0 +1,84 @@
+.containerCabecalho {
+	margin-right: 30%;
+	margin-left: 30%;
+	display: flex;
+	justify-content: space-between;
+}
+
+header {
+	width: 100%;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+	align-items: center;
+}
+
+.containerTitulo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+section {
+	height: 500px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.iconesCentral {
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+
+.supervisor {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.teamBuilder {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.karma {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.calculator {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.rodape {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+      /*MOBILE*/
+@media(max-width: 768px) {
+
+	.containerCabecalho {
+		margin: initial;
+	}
+
+	.rodape {
+		flex-direction: column;
+	}
+
+	section {
+		height: initial;
+		flex-direction: column;
+	}
+
+}
